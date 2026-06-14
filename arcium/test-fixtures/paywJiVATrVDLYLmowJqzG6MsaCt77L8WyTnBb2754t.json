@@ -1,0 +1,14 @@
+{
+  "pubkey": "paywJiVATrVDLYLmowJqzG6MsaCt77L8WyTnBb2754t",
+  "account": {
+    "lamports": 6795166440,
+    "data": [
+      "",
+      "base64"
+    ],
+    "owner": "11111111111111111111111111111111",
+    "executable": false,
+    "rentEpoch": 18446744073709551615,
+    "space": 0
+  }
+}

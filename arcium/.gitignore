@@ -1,0 +1,27 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+encrypted-ixs/arcis_temp_target
+build
+encrypted-ixs/src/main.rs
+artifacts/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+**/*-keypair.json
+**/*-keypair.json.bak
+**/id.json
+*.pem
+*.key
+
+# Local test key material
+test-fixtures/.shard-mint-localnet.json
+
+# Local experiment logs
+autoresearch.jsonl

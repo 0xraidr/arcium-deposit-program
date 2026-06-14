@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+**/*-keypair.json
+**/*-keypair.json.bak
+**/id.json
+*.pem
+*.key
+
+# Local test key material
+**/test-fixtures/.shard-mint-localnet.json
+
+# Local experiment logs
+autoresearch.jsonl
